@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "De Guzman, Cesar",
+        "alias": "Cabesa",
+        "criminal_case": "2467-49",
+        "reward": "2,000,000",
+        "crime": "Violation of Section 3 (E) of R.A. 3019 (Anti-graft and Corrupt Practices Act)",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "54",
+            "eyes": "black",
+            "hair": "black"
+        },
+        "personaldata": {
+            "age": 53,
+            "birthday": "June 30, 1956",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/caballo.jpg"
+    },
+    {
+        "id": 2,
+        "name": "FAJARDO, Harold Lumbres",
+        "alias": "Harold",
+        "criminal_case": "B-2002-198;B-2002-199",
+        "reward": "1,000,000",
+        "crime": "KFR; Violation of RA 6539 (Anti Carnapping Act)",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "135",
+            "eyes": "black",
+            "hair": "black"
+        },
+        "personaldata": {
+            "age": 32,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/dread.jpg"
+    }
+
+
+
+
+
+
+]

@@ -4,13 +4,13 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      List of Fugitives
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
+  <!-- <ion-list>
     <ion-item *ngFor="let item of items">
       <ion-icon [name]="item.icon" slot="start"></ion-icon>
       {{item.title}}
@@ -19,9 +19,17 @@
       </div>
     </ion-item>
   </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
+   -->
+
+  <ion-item *ngFor="let item of data;">
+    <ion-thumbnail slot="start">
+      <img src="{{item.avatar}}">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>{{item.name}}</h2>
+      <p><strong>Reward: </strong>₱{{item.reward}}</p>
+    </ion-label>
+    <ion-button fill="outline" slot="end" (click) = "presentModal(item)">View</ion-button>
+  </ion-item>
+
 </ion-content>

@@ -1,0 +1,49 @@
+<ion-header translucent>
+    <ion-toolbar>
+      <ion-title>{{name}} </ion-title>
+      <ion-buttons slot="end">
+        <ion-button (click)="dismiss()">Close</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header class="ion-text-center">
+      <img src="{{avatar}}" alt="" srcset="" class = "avatar">
+      <br>
+      <ion-card-subtitle><strong>REWARD:</strong> {{reward}}</ion-card-subtitle>
+      <ion-card-title>{{name}}</ion-card-title>
+      <ion-button color="danger" size="small" (click)= "presentAlertConfirm()">Contact Police<ion-icon slot="end" name="call"></ion-icon></ion-button>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ul>
+        <li><b>Alias:</b>  {{alias}} </li>
+        <li><b>Crime:</b>  {{crime}}</li>
+        <li><b>Criminal Case # :</b>  {{criminalcase}}</li>
+      </ul>
+      <ion-chip dark>
+        <ion-icon name="contact"></ion-icon>
+        <ion-label>Physical Description</ion-label>
+      </ion-chip>
+      <br>
+      <ul>
+        <li>Gender: {{gender}} </li>
+        <li>Weight : {{weight}} kg </li>
+        <li>Eyes: {{eyes}} </li>
+        <li>Hair: {{hair}} </li>
+      </ul>
+      <ion-chip dark>
+          <ion-icon name="list-box"></ion-icon>
+          <ion-label>Personal Information</ion-label>
+        </ion-chip>
+        <br>
+        <ul>
+          <li>Age: {{age}}</li>
+          <li>Birthday: {{birthday}}</li>
+          <li>Citizenship: {{citizenship}}</li>
+        </ul>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

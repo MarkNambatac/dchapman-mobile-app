@@ -17,10 +17,32 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Profile',
+      url: '/profile',
+      icon : 'contact'
+    },
+    {
+      title: 'Inbox',
+      url: '/inbox',
+      icon: 'mail' 
+    },
+    {
+      title: 'Location',
+      url: '/location',
+      icon: 'pin'
+    },
+    {
+      title: 'List of Fugitives',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Logout',
+      url: '',
+      icon: 'exit'
     }
+   
+   
   ];
 
   constructor(
