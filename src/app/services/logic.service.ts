@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class LogicService {
   private dataUrl : string = '../../assets/database.json'
   constructor(private http: HttpClient) { }

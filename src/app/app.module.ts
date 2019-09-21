@@ -11,7 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CallNumber } from '@ionic-native/call-number/ngx';
 import { ContactPage } from './contact/contact.page';
-
+import { Geolocation } from '@ionic-native/geolocation/ngx'
 @NgModule({
   declarations: [AppComponent, ContactPage ],
   entryComponents: [ContactPage],
@@ -25,6 +25,7 @@ import { ContactPage } from './contact/contact.page';
     StatusBar,
     SplashScreen,
     CallNumber,
+    Geolocation,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

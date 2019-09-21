@@ -28,10 +28,6 @@ const routes: Routes = [{
     path: 'location',
     loadChildren: () => import('./location/location.module').then(m => m.LocationPageModule)
   },
-  {
-    path: 'inbox',
-    loadChildren: () => import('./inbox/inbox.module').then(m => m.InboxPageModule)
-  },
   { path: 'list/:id', loadChildren: './contact/contact.module#ContactPageModule' }
 ];
 

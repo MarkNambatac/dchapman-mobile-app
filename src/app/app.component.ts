@@ -22,11 +22,6 @@ export class AppComponent {
       icon : 'contact'
     },
     {
-      title: 'Inbox',
-      url: '/inbox',
-      icon: 'mail' 
-    },
-    {
       title: 'Location',
       url: '/location',
       icon: 'pin'

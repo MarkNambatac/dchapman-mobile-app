@@ -17,7 +17,7 @@
             "birthday": "June 30, 1956",
             "citizenship": "Filipino"
         },
-        "avatar": "../assets/img/caballo.jpg"
+        "avatar": "../assets/img/1.jpg"
     },
     {
         "id": 2,
@@ -37,8 +37,189 @@
             "birthday": "N/A",
             "citizenship": "Filipino"
         },
-        "avatar": "../assets/img/dread.jpg"
+        "avatar": "../assets/img/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "DICKPUS, Corey",
+        "alias": "CoreyBoy",
+        "criminal_case": "26-97",
+        "reward": "1,000,000",
+        "crime": "Murder",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "65",
+            "eyes": "Brown",
+            "hair": "Straight/Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "IRAN, Eduardo",
+        "alias": "Boy Muslim/Israel Iran",
+        "criminal_case": "2402; 32801; 30323; 30373; 3032; 3",
+        "reward": "1,000,000",
+        "crime": "Robbery/Hold-up/Kidnapping with Murder/Frustrated Murder/Attempted Murder",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "120",
+            "eyes": "Brown",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "July 4, 1951",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "SALAMON, Fraser",
+        "alias": "Frazer/Abu Jarin",
+        "criminal_case": "2794-4; 2796-6; 2795; 1014-5; 505-4",
+        "reward": "850,000",
+        "crime": "Murder; Robbery in Band; Kidnapping; Kidnapping & Serious Illegal Detention",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "120",
+            "eyes": "Black",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "MONTESON, Ignacio Jr",
+        "alias": "Pogito",
+        "criminal_case": "2723; 2722; 3642",
+        "reward": "550,000",
+        "crime": "Homicide; Frustrated Murder",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "70",
+            "eyes": "Black",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 40 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "VALERIO, Mario Ponce",
+        "alias": "Baby Boy",
+        "criminal_case": "02-827",
+        "reward": "500,000",
+        "crime": "Kidnapping with Ransom",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "120",
+            "eyes": "Black",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "MOOG, Jaime Alvarez",
+        "alias": "Baby Girl",
+        "criminal_case": "Q-99-87470",
+        "reward": "500,000",
+        "crime": "Kidnapping with Ransom",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "120",
+            "eyes": "Black",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 62 ,
+            "birthday": "July 22, 1945",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "CUTAD, Neil Mangubat        ",
+        "alias": "Jojo",
+        "criminal_case": "03-0606",
+        "reward": "500,000",
+        "crime": "Kidnapping with Ransom and Serious Illegal Detention",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "139",
+            "eyes": "Black",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "BAGATUA, Allan Baisa",
+        "alias": "Dennis/Ramil/Tony",
+        "criminal_case": "00-0245",
+        "reward": "500,000",
+        "crime": "Murder",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "140",
+            "eyes": "Brown",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 32 ,
+            "birthday": "December 14, 1968",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "BUCALA, Amado",
+        "alias": "Dennis/Ramil/Tony",
+        "criminal_case": "80388",
+        "reward": "550,000",
+        "crime": "Murder",
+        "physicaldescription": {
+            "gender": "male",
+            "weight": "70",
+            "eyes": "Brown",
+            "hair": "Black"
+        },
+        "personaldata": {
+            "age": 0 ,
+            "birthday": "N/A",
+            "citizenship": "Filipino"
+        },
+        "avatar": "../assets/img/11.jpg"
     }
+
 
 
 
