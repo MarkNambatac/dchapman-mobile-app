@@ -46,6 +46,9 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
+    if(this.platform.is('android')) {
+      this.statusBar.backgroundColorByHexString('#0094cc');
+    }
   }
 
   initializeApp() {
